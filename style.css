@@ -1,0 +1,39 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+header{
+    height: 20%;
+}
+main{
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.with_border{
+    border : 1px solid;
+}
+article{
+    border: 1px solid;
+    width: 40%;
+}
+#left_article{
+    border-color: red;
+    font-family: "PT Sans", sans-serif;
+}
+#right_article{
+    border-color: blue;
+    font-family: "Cinzel", serif;
+}
+#cards_heading{
+    height: 5%;
+    border-color: teal;
+}
+#cards_container{
+    height: 90%;
+    border-color: aqua;
+}
